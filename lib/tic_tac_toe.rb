@@ -77,6 +77,8 @@ class TicTacToe
    until over? 
    turn 
  end 
+ if won? puts "Congradulations #{winner}"
+   esle 
  
    
 end 
