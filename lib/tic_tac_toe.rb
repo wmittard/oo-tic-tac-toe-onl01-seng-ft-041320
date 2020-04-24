@@ -57,6 +57,6 @@ class TicTacToe
    odp ? odp : false
    end
    def full?
-     @board.all?{|player| = "X" || player = "O"} true : false 
+     @board.all?{|player| == "X" || player == "O"}true : false 
    end 
 end 
