@@ -59,9 +59,10 @@ class TicTacToe
    def full?
      @board.all?{|player| player == "X" || player == "O"}? true : false 
    end 
-   def draw 
+   def draw?
      won? ? false : full? ? true : false
    end
+   def over?
    won? || draw? || full? 
  end
 end 
