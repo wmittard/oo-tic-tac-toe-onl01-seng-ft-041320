@@ -70,7 +70,7 @@ class TicTacToe
    if(!win)
      nil 
    else 
-     @board[won[0]]
+     @board[win[0]]
    end 
  end 
    
