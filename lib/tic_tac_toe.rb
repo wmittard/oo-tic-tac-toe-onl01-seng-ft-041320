@@ -56,4 +56,6 @@ class TicTacToe
          end
    odp ? odp : false
    end
+   def full?
+     full.all?
 end 
