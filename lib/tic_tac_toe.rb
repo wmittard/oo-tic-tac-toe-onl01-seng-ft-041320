@@ -66,5 +66,6 @@ class TicTacToe
    won? || draw? || full? 
  end
  def winner? 
+ end 
    
 end 
