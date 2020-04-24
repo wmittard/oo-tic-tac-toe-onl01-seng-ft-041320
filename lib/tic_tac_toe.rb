@@ -29,8 +29,9 @@ class TicTacToe
   def position_taken?(location)
     @bored[location] != " " && @bored[location] != ""
 end
-    def valid
-  
+    def valid_move?(position)
+      valid_move?(position) i= " " && position_taken?(position) i= ""
+  end 
     
 
 end 
