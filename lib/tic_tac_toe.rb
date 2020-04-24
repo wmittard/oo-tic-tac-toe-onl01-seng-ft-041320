@@ -69,7 +69,9 @@ class TicTacToe
    win = won? 
    if(!win)
      nil 
-   else won
+   else 
+     @board[won[0]]
+   end 
  end 
    
 end 
