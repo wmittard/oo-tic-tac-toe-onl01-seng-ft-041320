@@ -73,5 +73,6 @@ class TicTacToe
      @board[win[0]]
    end 
  end 
+ def play 
    
 end 
