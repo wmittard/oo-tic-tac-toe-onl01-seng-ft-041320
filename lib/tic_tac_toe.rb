@@ -78,7 +78,7 @@ class TicTacToe
    turn 
  end
  if won? 
-   puts "Congradulations #{winner}"
+   puts "Congradulations #{winner}!"
  else draw? 
    puts "Cat's game"
  end 
