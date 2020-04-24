@@ -65,8 +65,11 @@ class TicTacToe
    def over?
    won? || draw? || full? 
  end
- def winner? 
-   @board
+ def winner 
+   win = won? 
+   if(!win)
+     nil 
+   else won
  end 
    
 end 
