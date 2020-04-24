@@ -76,13 +76,14 @@ class TicTacToe
  def play 
    until over? 
    turn 
+ end
  if won? 
    puts "Congradulations #{winner}"
- else draw? 
+ elseif draw? 
    puts "Cat's game"
  end 
  end 
- end
+ 
  
  
  
